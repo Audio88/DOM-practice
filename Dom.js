@@ -10,7 +10,7 @@ function getInput(){
     event.preventDefault();     
     var inputValue = document.getElementById("input-field").value;  
     form.reset();
-    document.getElementById("list").innerHTML += "<li>"+ inputValue +"</li>"; 
+    list.innerHTML += "<li>"+ inputValue +"</li>"; 
 }
 
    
